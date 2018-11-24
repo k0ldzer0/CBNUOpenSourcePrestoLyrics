@@ -17,7 +17,7 @@
             Text="{Binding Player.CurrentMusic.Title}"
             TextAlignment="Center" />
 
-        <TextBlock
+        <TextBlock x:Name="textLyrics"
             FontSize="24"
             Text="가사가 여기에 표시됩니다."
             TextAlignment="Center" />
